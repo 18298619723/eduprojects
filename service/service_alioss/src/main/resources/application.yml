@@ -1,0 +1,23 @@
+server:
+  port: 8889
+
+#服务名
+spring:
+  application:
+    name: service-alioss
+# 环境设置
+  profiles:
+    active: dev
+
+#阿里云oss
+#不同的服务器，地址不同
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-beijing.aliyuncs.com
+      keyid: LTAI4FyDxdkuFHP2sib3uTqT
+      keysecret: L2w7MtNdFscxpxYRF8tffDBv66okJk
+      bucketname: wg1
+
+
+
